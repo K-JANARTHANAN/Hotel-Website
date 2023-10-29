@@ -1,0 +1,78 @@
+.a{
+    color:green;
+    text-align:center;
+    border-color: blue;
+    border-width: 6px;
+    border-style:dotted;
+    background-color: aqua;
+}
+.a:hover{
+    color:#ff0000;
+}
+.b{
+    border-color:palevioletred;
+    border-width:5px;
+    border-style:double;
+     display:inline-block;
+     width:300px;
+     margin-left:70px;
+
+}
+.c{
+    border-color:palevioletred;
+    border-width:5px;
+    border-style:double;
+     display:inline-block;
+     width:225px;
+     margin-left:70px;
+
+}
+
+.d{
+    border-color:palevioletred;
+    border-width:5px;
+    border-style:double;
+     display:inline-block;
+     width:275px;
+     margin-left:70px;
+
+}
+.e{
+    border-color:palevioletred;
+    border-width:5px;
+    border-style:double;
+     display:inline-block;
+     width:225px;
+     margin-left:70px;
+}
+
+.f{
+    border-color:palevioletred;
+    border-width:5px;
+    border-style:double;
+     display:inline-block;
+     width:259px;
+     margin-left:300px;
+     margin-top:70px;
+}
+
+
+.h{
+    border-color:palevioletred;
+    border-width:5px;
+    border-style:double;
+     display:inline-block;
+     width:250px;
+     margin-left:300px;
+     margin-top:70px;
+}
+#v{
+    background-image:url(picture/plane.jpg)
+    
+}
+p{
+    color: greenyellow;
+}
+#v:hover{
+    color:gold;
+}
