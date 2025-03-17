@@ -1,78 +1,71 @@
-.a{
-    color:green;
-    text-align:center;
-    border-color: blue;
-    border-width: 6px;
-    border-style:dotted;
+.a {
+    color: green;
+    text-align: center;
+    border: 6px dotted blue;
     background-color: aqua;
-}
-.a:hover{
-    color:#ff0000;
-}
-.b{
-    border-color:palevioletred;
-    border-width:5px;
-    border-style:double;
-     display:inline-block;
-     width:300px;
-     margin-left:70px;
-
-}
-.c{
-    border-color:palevioletred;
-    border-width:5px;
-    border-style:double;
-     display:inline-block;
-     width:225px;
-     margin-left:70px;
-
+    padding: 10px;
 }
 
-.d{
-    border-color:palevioletred;
-    border-width:5px;
-    border-style:double;
-     display:inline-block;
-     width:275px;
-     margin-left:70px;
-
-}
-.e{
-    border-color:palevioletred;
-    border-width:5px;
-    border-style:double;
-     display:inline-block;
-     width:225px;
-     margin-left:70px;
+.a:hover {
+    color: #ff0000;
 }
 
-.f{
-    border-color:palevioletred;
-    border-width:5px;
-    border-style:double;
-     display:inline-block;
-     width:259px;
-     margin-left:300px;
-     margin-top:70px;
+.b, .c, .d, .e, .f, .h {
+    border: 5px double palevioletred;
+    display: inline-block;
+    width: 90%; 
+    max-width: 300px; 
+    margin: 10px auto;  
+    padding: 10px;
+}
+ 
+.f, .h {
+    margin-top: 30px;
 }
 
+ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
 
-.h{
-    border-color:palevioletred;
-    border-width:5px;
-    border-style:double;
-     display:inline-block;
-     width:250px;
-     margin-left:300px;
-     margin-top:70px;
+#v {
+    background-image: url(picture/plane.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
 }
-#v{
-    background-image:url(picture/plane.jpg)
-    
-}
-p{
+
+p {
     color: greenyellow;
+    text-align: center;
 }
-#v:hover{
-    color:gold;
+
+#v:hover {
+    color: gold;
+}
+
+ 
+@media (max-width: 768px) {
+    .b, .c, .d, .e, .f, .h {
+        width: 100%;  
+        margin-left: 0; 
+        text-align: center;
+    }
+
+    .a {
+        font-size: 1.2rem;  
+    }
+}
+
+@media (max-width: 480px) {
+    .a {
+        font-size: 1rem;
+    }
+
+    .b, .c, .d, .e, .f, .h {
+        width: 100%;
+    }
 }
